@@ -73,7 +73,8 @@ const Desc = styled.p`
   letter-spacing: 3px;
 `;
 
-const Code = styled.p`
+//span allow Code string to continue in the same line
+const Code = styled.span`
   font-weight: bold;
   text-decoration: underline;
 `;
