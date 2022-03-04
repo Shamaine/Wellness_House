@@ -14,7 +14,7 @@ const Container = styled.div`
 const Announcement = () => {
   return (
     <Container>
-      <i class="large truck icon"></i>
+      <i className="large truck icon"></i>
       Super Deal ! Free Shipping on Orders Over RM50
     </Container>
   );

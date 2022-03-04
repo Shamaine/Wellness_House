@@ -1,9 +1,9 @@
 import Oat from "../src/images/overnightoat.png";
-import Shaker from "../src/images/shaker.png";
+import Dinner2 from "../src/images/dinner2.png";
 import Herbalife from "../src/images/herbalife.png";
 import Breakfast from "../src/images/breakfast.png";
 import Snacks from "../src/images/snacks.jpg";
-import Accessories from "../src/images/accessories.jpg";
+import Dinner from "../src/images/dinner.jpeg";
 import Popular1 from "../src/images/popular1.png";
 import Popular2 from "../src/images/popular2.jpg";
 import Popular3 from "../src/images/popular3.jpg";
@@ -23,18 +23,18 @@ export const sliderItems = [
   },
   {
     id: 2,
-    img: Shaker,
+    img: Herbalife,
     title: "SUMMER COLLECTION",
     desc1: "USE CODE:",
     code: "SHAKE",
-    desc: "GET FLAT 10% OFF EVERYTHING.",
+    desc: " GET FLAT 10% OFF EVERYTHING.",
     bg: "fcf1ed",
   },
   {
     id: 3,
-    img: Herbalife,
-    title: "HERBALIFE PRODUCTS",
-    desc: "MAKING BREAKFAST EVEN HEALTHIER! DISCOVER THE POWER OF GOOD NUTRITION ",
+    img: Dinner2,
+    title: "Dinner Ready Meal",
+    desc: "MAKING DINNER EVEN EASIER AND HEALTHIER! ",
     bg: "fbf0f4",
   },
 ];
@@ -44,16 +44,19 @@ export const categories = [
     id: 1,
     img: Breakfast,
     title: "BREAKFAST",
+    cat: "Breakfast",
   },
   {
     id: 2,
     img: Snacks,
     title: "SNACKS",
+    cat: "Snacks",
   },
   {
     id: 3,
-    img: Accessories,
-    title: "ACCESSORIES",
+    img: Dinner,
+    title: "DINNER",
+    cat: "Dinner",
   },
 ];
 
